@@ -3,9 +3,10 @@
 # dependencies
 node_modules/
 .env
-.DS_Store
-build/
 dist/
+build/
+.vscode/
+.DS_Store
 
 
 # testing
