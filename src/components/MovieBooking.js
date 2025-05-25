@@ -90,7 +90,7 @@ const MovieBooking = () => {
 
     // Example backend API call placeholder (change URL to your backend endpoint)
     try {
-      const response = await fetch('http://localhost:5000/api/book', {
+      const response = await fetch('https://event-ticketing-system-16m7.onrender.com', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
